@@ -1,0 +1,62 @@
+:root {
+    --nutmeg: hsl(14, 45%, 36%);
+    --darkRaspberry: hsl(332, 51%, 32%);
+    --white: hsl(0, 0%, 100%);
+    --roseWhite: hsl(330, 100%, 98%);
+    --eggshell: hsl(30, 54%, 90%);
+    --lightGrey: hsl(30, 18%, 87%);
+    --wengeBrown: hsl(30, 10%, 34%);
+    --darkCharcoal: hsl(24, 5%, 18%);
+    --link: hsl(228, 45%, 44%);
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    /* 16px */
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Outfit', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2 {
+    font-family: 'Young Serif', serif;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+.attribution {
+    /* 11px */
+    font-size: 0.6875;
+    text-align: center;
+}
+
+.attribution a {
+    color: var(--link);
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
