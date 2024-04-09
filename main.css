@@ -18,6 +18,10 @@ html {
 *::before,
 *::after {
     box-sizing: inherit;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: 0;
 }
 
 body {
@@ -25,6 +29,8 @@ body {
     font-size: 1rem;
     font-weight: 400;
     font-family: 'Outfit', sans-serif;
+    color: var(--wengeBrown);
+    background-color: var(--lightGrey);
 }
 
 img {
@@ -37,11 +43,104 @@ h2 {
 }
 
 h1 {
-    font-weight: 700;
+    font-weight: 400;
 }
 
 h2 {
     font-weight: 600;
+    color: var(--nutmeg);
+}
+
+h3 {
+    font-weight: 700;
+    font-family: inherit;
+    color: var(--darkRaspberry);
+}
+
+.container {
+    /* 320px */
+    min-width: 20rem;
+    /* 375px */
+    max-width: 23.4375rem;
+    margin: 0 auto;
+}
+
+.content {
+    /* 32px 33.6px 48px */
+    padding: 2rem 2.1rem 3rem;
+    line-height: 2rem;
+    background-color: var(--white);
+}
+
+.illustration {
+    display: block;
+}
+
+.title {
+    /* 16px */
+    margin-bottom: 1rem;
+    color: var(--darkCharcoal);
+}
+
+.section {
+    /* 32px */
+    padding: 2rem 0;
+}
+
+.section ul,
+.section ol {
+    /* 16px */
+    padding-left: 1rem;
+}
+
+.section li {
+    margin-bottom: .5rem;
+    /* 19.2px */
+    padding-left: 1.2rem;
+}
+
+.section li::marker {
+    font-weight: 700;
+}
+
+.section ol li::marker {
+    color: var(--nutmeg);
+}
+
+.preparation {
+    width: 90%;
+    /* 24px */
+    padding-left: 1.5rem;
+}
+
+.section header {
+    margin-bottom: 1rem;
+}
+
+.hr {
+    display: block;
+    border-top: 1px solid var(--eggshell);
+}
+
+.section table tr {
+    position: relative;
+}
+
+.section table tr:not(:last-child)::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    border-bottom: 1px solid var(--eggshell);
+}
+
+.section table tr td {
+    padding: 0 2.5rem;
+}
+
+.nutmeg {
+    color: var(--nutmeg);
 }
 
 .attribution {
@@ -59,4 +158,5 @@ footer {
     position: fixed;
     bottom: 0;
     left: 0;
+    background-color: var(--roseWhite);
 }

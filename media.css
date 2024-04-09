@@ -1,5 +1,14 @@
 @media (min-width: 1440px) {
-    body {
-        background-color: #000;
+    .container {
+        max-width: 37.5rem;
+    }
+
+    .content {
+        /* 32px 33.6px 48px */
+        padding: 4rem 4.1rem 6rem;
+    }
+
+    .section table tr td {
+        padding: 0 4.5rem;
     }
 }
