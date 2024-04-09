@@ -1,14 +1,19 @@
 @media (min-width: 1440px) {
     .container {
-        max-width: 37.5rem;
+        /* 800px */
+        max-width: 50rem;
+        /* 250px */
+        margin: 15.625rem auto;
+        padding: 2rem;
     }
 
     .content {
-        /* 32px 33.6px 48px */
-        padding: 4rem 4.1rem 6rem;
+        /* 64px 0 96px */
+        padding: 4rem 0 6rem;
     }
 
     .section table tr td {
-        padding: 0 4.5rem;
+        /* 120px */
+        padding: 0 7.5rem;
     }
 }
