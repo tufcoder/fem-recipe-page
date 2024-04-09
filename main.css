@@ -111,7 +111,7 @@ h2 {
     padding-left: 1.5rem;
 }
 
-.preparation header {
+.preparation header h2 {
     font-weight: 700;
     font-family: inherit;
     color: var(--darkRaspberry);
