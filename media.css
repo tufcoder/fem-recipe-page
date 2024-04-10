@@ -4,13 +4,19 @@
         max-width: 50rem;
         /* 250px */
         margin: 15.625rem auto;
-        padding: 2rem;
+        padding: 4rem;
     }
 
     .content {
         /* 64px 0 96px */
         padding: 4rem 0 6rem;
     }
+
+    .preparation {
+        /* 48px */
+        padding-left: 3rem;
+    }
+
 
     .section table tr td {
         /* 120px */
