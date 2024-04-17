@@ -9,8 +9,8 @@
     }
 
     .content {
-        /* 64px 0 96px */
-        padding: 4rem 0 6rem;
+        /* 64px 0 0 */
+        padding: 4rem 0 0;
     }
 
     .preparation {
@@ -18,9 +18,12 @@
         padding-left: 3rem;
     }
 
-
     .section table tr td {
         /* 120px */
         padding: 0 7.5rem;
+    }
+
+    .attribution {
+        font-size: 1rem;
     }
 }
